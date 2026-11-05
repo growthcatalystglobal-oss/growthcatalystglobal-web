@@ -1,0 +1,24 @@
+.blog-page__hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: var(--nav-height);
+}
+
+.blog-page__hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(20px, 3.5vw, 32px);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+  color: var(--white);
+}
+
+.blog-page__subtitle {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  margin: 0 auto;
+}
