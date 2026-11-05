@@ -1,4 +1,4 @@
-# Logs
+
 logs
 *.log
 npm-debug.log*
@@ -12,15 +12,15 @@ dist
 dist-ssr
 *.local
 
-# Environment variables (never commit real credentials)
+
 .env
 .env.local
 .env.production.local/
 
-# Vercel
+
 .vercel
 
-# Editor directories and files
+
 .vscode/*
 !.vscode/extensions.json
 .idea
